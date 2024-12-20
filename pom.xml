@@ -22,7 +22,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <java.version>21</java.version>
-    <gson.version>2.10.1</gson.version>
+    <gson.version>2.11.0</gson.version>
     <jacoco.version>0.8.12</jacoco.version>
     <maven.compiler.source>21</maven.compiler.source>
     <maven.compiler.target>21</maven.compiler.target>
@@ -77,12 +77,11 @@
         <optional>true</optional>
     </dependency>
 
-<!--    <dependency>
+    <dependency>
         <groupId>com.google.code.gson</groupId>
         <artifactId>gson</artifactId>
-        <version>${gson.version}</version>&lt;!&ndash;$NO-MVN-MAN-VER$ &ndash;&gt;
+        <version>${gson.version}</version>
     </dependency>
-    -->
 
     <!-- https://mvnrepository.com/artifact/com.graphql-java-kickstart/graphql-spring-boot-starter-test -->
     <!-- https://mvnrepository.com/artifact/com.graphql-java-kickstart/graphql-spring-boot-starter -->
